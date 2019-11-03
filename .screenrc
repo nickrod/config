@@ -1,0 +1,32 @@
+# settings
+
+defutf8 on
+vbell off
+altscreen on
+startup_message off
+autodetach on
+defscrollback 5000
+silencewait 15
+shell -$SHELL
+
+# title
+
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%w"
+
+# keys
+
+bindkey ^[- prev
+bindkey ^[= next
+bindkey -k k8 prev
+bindkey -k k9 next
+
+# default
+
+screen -t bash    0
+screen -t bash    1
+screen -t bash    2
+screen -t bash    3
+screen -t bash    4
+select 0

@@ -1,0 +1,16 @@
+set meta-flag on
+set convert-meta off
+set input-meta on
+set output-meta on
+
+set bell-style none
+set completion-ignore-case on
+set show-all-if-ambiguous on
+set visible-stats on
+
+# history search when using up/down keys
+
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+"\e[C": forward-char
+"\e[D": backward-char
