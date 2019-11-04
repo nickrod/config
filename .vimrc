@@ -1,6 +1,6 @@
 " first
 
-syntax on
+set syntax=on
 set nocompatible
 
 " variables
