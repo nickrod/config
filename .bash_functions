@@ -17,7 +17,7 @@ extract () {
   fi
 }
 
-pwgen2 () {
+pwgen () {
   if [ "$#" -ne 2 -o -z "$(echo "$2" | grep -E '^[0-9]+$')" ] ; then
     echo "usage: pwgen [regex] [int]"
   else
