@@ -18,7 +18,6 @@ shopt -s histappend
 HISTSIZE=20000
 HISTFILESIZE=40000
 EDITOR=vim
-PROMPT_COMMAND="history -a"
 PAGER=less
 
 # check the window size after each command and, if necessary,
