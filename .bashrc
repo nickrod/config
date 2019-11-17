@@ -9,7 +9,7 @@
 # don't overwrite GNU Midnight Commander's setting of `ignorespace'.
 HISTCONTROL=$HISTCONTROL${HISTCONTROL+:}ignoredups
 # ... or force ignoredups and ignorespace
-HISTCONTROL=ignoreboth
+HISTCONTROL=ignoreboth:erasedups
 
 # append to the history file, don't overwrite it
 shopt -s histappend
@@ -17,7 +17,7 @@ shopt -s histappend
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=20000
 HISTFILESIZE=40000
-HISTIGNORE='&:clear:screen:cl:s:l:rm *:history *:ll:ls:cd:[bf]g:exit:[ \t]*'
+HISTIGNORE='&:clear:screen:cl:s:l:rm *:history*:ll:ls:cd*:[bf]g:exit:[ \t]*'
 EDITOR=vim
 PAGER=less
 
