@@ -17,6 +17,7 @@ shopt -s histappend
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=20000
 HISTFILESIZE=40000
+HISTIGNORE='&:clear:screen:cl:s:l:rm *:history *:ll:ls:cd:[bf]g:exit:[ \t]*'
 EDITOR=vim
 PAGER=less
 
